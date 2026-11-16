@@ -1,0 +1,17 @@
+Completed Task 1 of my Data Science internship with @SWYNEX Technologies! 🚀
+
+I prepared the IBM Telco Customer Churn dataset (7,043 customers) for modelling.
+
+The most interesting finding: pandas reported 0 missing values, but TotalCharges had 11 hidden blank strings. All belonged to brand-new customers with tenure = 0, so the correct fix was 0, not a mean/median that would have invented ~$2,300 of revenue per customer.
+
+What I built:
+✅ A reproducible, unit-tested cleaning pipeline (9 tests, 9 validation checks)
+✅ Auto-generated data-quality report with an audit log of every change
+✅ Data dictionary + notebook with evidence behind each decision
+✅ Memory footprint cut from 7.2 MB to 0.7 MB through proper dtypes
+
+Biggest learning: check that your data is what it claims to be before you clean it, and make assumptions fail loudly in code.
+
+GitHub: <your repo link>
+
+#SWYNEX #Internship #DataScience #Python #Pandas #DataCleaning
